@@ -14,5 +14,8 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
-
+let totalPrice = 0
+for(i=1; i<=99.99; i=i+1){
+    
+}
 // ⛑ Answer of the above will `$334.76`.
