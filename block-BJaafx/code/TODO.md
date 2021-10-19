@@ -17,8 +17,7 @@ while (i < 3) {
 }
 ```
 
-error
- 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
+error 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
 
 function getEvenSum(max=10){
 let sum = 0
@@ -110,3 +109,4 @@ getOutput(); // 'Who are you'
    }
    if there are multiple conditions in a function then multiple return statements are used
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
+    The difference between for loop and while loop is that in for loop the number of iterations to be done is already known and is used to obtain a certain result whereas in while loop the command runs until a certain condition is reached and the statement is proved to be false.
