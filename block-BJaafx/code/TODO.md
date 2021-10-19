@@ -1,10 +1,12 @@
 1. Using loops take 10 inputs from user and find the average of all the numbers.
+
    let average = 0
    for(let i=1; i<=10; i=i+1){
    let input = +prompt("enter a number")
    average = average + input/10;
    }
    console.log(average)
+
 2. What will be the output of the code below
 
 ```js
@@ -15,7 +17,9 @@ while (i < 3) {
 }
 ```
 
-error 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
+error
+ 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
+
 function getEvenSum(max=10){
 let sum = 0
 for(let i=0; i<=10; i=i+2){
@@ -26,6 +30,7 @@ console.log(sum)
 };
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
+
    function getOddSum(max=10){
    let sum = 0
    for(let i=1; i<=10; i=i+2){
@@ -34,16 +39,18 @@ console.log(sum)
    }
    console.log(sum)
    };
+
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
 - If the input value is less than 0 return `not a valid input`
 - For example if the input is `123` output should be `6`.
+
   let product = 1
   let string = prompt("enter a number")
   for(let i=1; i<string.length; i=i+1){
   product = product \* Number(string[i])
   };
-  console.log(product)
+  console.log(product);
 
 6. What will be the output of the following code below in multiple conditions? Explain with reason?
 
